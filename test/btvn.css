@@ -1,0 +1,131 @@
+.tinh_tien{
+    text-align: center;
+}
+
+.body {
+    text-align: center;
+}
+
+#forml {
+    background: red;
+    width: 600px;
+    height: 350px;
+    margin-left: 380px;
+    margin-top: 10px;
+}
+
+.bill {
+    background-color: rgb(13, 163, 113);
+    width: 600px;
+    height: 300px;
+    margin-left: 380px;
+    margin-top: 60px;
+}
+
+.bill h1 {
+    text-align: center;
+}
+
+.bill form {
+    text-align: center;
+}
+
+.bill h1 {
+    background-color: black;
+    width: 600px;
+    border-radius: 10px;
+}
+.pay{
+    font-size: 3em;
+    font-weight: 500;
+    color: #353b48;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.pay:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.tinh_tien {
+    background-color: green;
+    width: 600px;
+    border-radius: 10px;
+}
+.card{
+    font-size: 3em;
+    font-weight: 500;
+    color: #353b48;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.card:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.lum button{
+    background-color: black;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+}
+#ok{
+    font-size: 30px;
+    font-weight: 100;
+    color: #353b48;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+#ok:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.lam button{
+    background-color: black;
+    width: 160px;
+    border-radius: 10px;
+    color: white;
+}
+#cancel{
+    font-size: 30px;
+    font-weight: 100;
+    color: #353b48;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+#cancel:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.hello {
+    display: flex ;
+    padding-left: 150px;
+    
+}

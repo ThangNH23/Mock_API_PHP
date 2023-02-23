@@ -1,0 +1,3 @@
+<?php 
+$today = "Tusday";
+
