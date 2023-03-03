@@ -47,8 +47,7 @@
 <body>
     
     <div class="title">
-        
-        Kết quả sau khi nhấn <a > click here! </a> của trang session.
+        Kết quả sau khi nhấn <p > click here! </p> của trang session.
     </div>
 
     <?php 

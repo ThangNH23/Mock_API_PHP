@@ -12,25 +12,28 @@
         width: 30%;
         margin: auto;
         padding: auto;
+        margin-top: 100px;
     }
     table {
-        width:400px;
-        background-color: #D7E9D7;
+        width:450px;
+        background-color: #3ae374;
     }
     table tr,td {
         padding: 10px;
     }
     .center {
-        background-color: #76BB68;
+        background-color: #6F1E51;
         font-weight: bold;
         font-size: 20px;
         text-align: center;
+        color: #ff3838;
     }
 
     .center button {
-        background-color: #FFBF00;
+        background-color: #EE5A24;
         font-weight: bold;
         font-size: 20px;
+        border-radius: 15px
     }
     table .center {
         margin: auto;
@@ -98,7 +101,7 @@
             if ($flag==1) {
                 echo "<table><tr class='center'><td>";
                 echo "<font color='#ffffff'>Thông tin khách hàng: </br>";
-                echo $_COOKIE["khach_hang"]."<br>";
+                echo "Tên: " .$_COOKIE["khach_hang"]."<br> <br>";
                 echo "<a href='cookies_doc.php' >Click here! </a>";
                 echo "</td></tr></table>";
             }

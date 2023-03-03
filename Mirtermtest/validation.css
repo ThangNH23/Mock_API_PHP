@@ -1,0 +1,28 @@
+form {
+    display: inline-block;
+    align-items: center;
+}
+
+#forml {
+    position: absolute;
+    margin-top: 90px;
+    padding-top: 50px;
+    border: solid 3px #ffd32a;
+    text-align: center;
+    width: 25%;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #dcdde1;
+}
+
+.login {
+    text-align: center;
+}
+
+.dang_nhap {
+    border-radius: 5px;
+    background-color: #1e272e;
+    color: pink;
+    cursor: pointer;
+}
+

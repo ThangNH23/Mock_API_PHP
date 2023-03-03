@@ -95,7 +95,7 @@
     foreach ($list_phones as $key => $value) { ?>
         <div class="title"> 
             <?php echo $key ?>
-    </div>
+        </div>
         <div class="card-group">
                 <?php 
                 foreach ( $value as $k => $v ) {

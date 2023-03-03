@@ -1,0 +1,43 @@
+.tableStyle, td, th {  
+  border: 2px solid ;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+  
+}
+#hien_thi td{
+  background-color: red;
+  text-align: center;
+}
+button #submit{
+    width: 15%;
+    border-radius: 15px;
+}
+
+.them {
+  margin-top: 3%;
+  padding-left: 48%;
+  position: absolute;
+  position: relative;
+}
+
+.them_add {
+  width: 10%;
+  border-radius: 6px;
+  height: 10%;
+  cursor: pointer;
+  background-color: #485460;
+  color: white;
+}
+
+#edit_dele a{
+  color: blue;
+  text-decoration: none;
+}

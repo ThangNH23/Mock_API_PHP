@@ -4,41 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./cd.css">
+    <link rel="stylesheet" href="form.css">
     <title>Document</title>
 </head>
 <body>
-    <?php
-        for ($a = 0; $a <= 5; $a++){
-            for($b = 0; $b <= 5; $b++) {
-                if ($a % 2 == 0) {
-                    echo "<div style='background:blue; margin:10px; width:50px; height:50px;display:inline-block;'></div>";
-                }
-                else {
-                    echo "<div style='background:red; margin:10px; width:50px; height:50px;display:inline-block;'></div>";
-                }
-            }
-            echo '<br>';
-        }
-    ?> <br> <br>
-
-    <?php 
-        $x = 0;
- 
-        while($x <= 5) {
-            $y = 0;
-            while ($y <= 5) {
-                if ($x % 2 == 0) {
-                    echo "<div style='background:blue; margin:10px; width:50px; height:50px;display:inline-block;' ></div>";
-                }
-                else {
-                    echo "<div style='background:red; margin:10px; width:50px; height:50px;display:inline-block;'></div>";
-                }
-                $y++ ;
-            }
-            echo '<br>';
-            $x++ ;
-          }          
-    ?>
+    <center>
+        <form action="" method = "post" id="forml">
+            <label for="" >Full Name: </label>
+                <input type="text"name="name"> <br> <br>
+            <label for="">Emal: </label>
+                <input type="email" name="email"> <br> <br>
+            <label for="">SĐT: </label>
+                <input type="number" name="number"> <br> <br>
+            <label for="" id="gender">Giới tính  <br> <br>
+                <input type="radio" name="gender" value="Nam"> Nam
+                <input type="radio" name="gender" value="Nu"> Nữ
+                <input type="radio" name="gender" value="khac"> Khác
+            </label> <br> <br>
+            <input type="submit" name="submit" id="submit"> 
+        </form>
+    </center>
 </body>
+
 </html>

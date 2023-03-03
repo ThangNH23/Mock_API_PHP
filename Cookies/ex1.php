@@ -1,8 +1,15 @@
 <html>
 <?php 
-setcookie ("my_cookies", "bx1", time()+ 30,'/');
-echo 'the cookies has bees set for 30 seconds' ."</br>";
-echo $_COOKIE['my-cookies'];
-?>
+    setcookie ("Thang", "19", time()+30);
+    echo $_COOKIE["Thang"];
 
+    if(isset($_COOKIE["Thang"]))
+    {
+        echo "Welcome" . $_COOKIE["Thang"];
+    }
+    else {
+        echo "Tên này không tồn tại";
+    }
+?>
 </html>
+
